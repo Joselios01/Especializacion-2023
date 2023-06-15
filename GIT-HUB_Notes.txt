@@ -1,0 +1,56 @@
+tree -a -c          -> abre listado de archivos y carpetas contenidas en forma de arbol.
+ls                  -> Listado de archivos y carpetas, separados por espacios, ocultos "no" (instruccion de windows)
+rm -r carpeta/*.*   -> borra todos los archivos dentro de carpeta
+cp -R . ../carpeta2   -> copia todos los archivos de la carpeta actual en la carpeta2
+cd carpeta            -> ingresa a una carpeta
+
+
+
+******************************************************
+nano archivo.md    -> crea un archivo dentro de la carpeta actual de nombre archivo.md junto con un editor en consola
+   Ctrl + X    -> salir
+   
+   
+   
+   
+******************************************************
+ git status      -> devuelve el estado del repositorio
+- 
+- En la rama master     -> me indica en que rama estoy
+-
+-No hay commits todavía   ->no hay ningun commit anterior o en uso
+-
+-Archivos sin seguimiento:    
+-  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)-
+-	archivo.md                      -> aparece en color rojo, indicando que el archivo o su modificacion no a sido incluida al repositorio 
+-
+-no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+-
+ 
+ 
+ git add archivo    -> pasa un archivo de unTraking a Stage preparado para confirmar
+ git diff archivo    ->abre una ventana donde muestra los cambios de una version a la otra del mismo archivo
+ 
+ git branch  ____    -> crea una rama, pero no crea bifurcacion, se debe crear commit en cada rama y HEAD no se mueve
+ git chechout branch2    -> Head sale y salta a branch2 (rama posteriormente creada)
+
+ git --no-pager log --graph     -> crea un listado de 
+ 
+ 
+ git commit -m "xxxxxx"  -> xxxxxx comentarios del commit
+ git commit              -> abre un editor para escribir el comentario del commit
+ 
+ 
+servidor llamado origin
+ 
+git remote add origin https://github.com/Joselios01/Especializacion-2023.git  ->ruta para subir repositorio a servidor
+git push -u origin Master   -> crea un branch servidor llamado master y sube el repositorio a ese origin 
+ 
+ 
+pagina para configurar tokens
+https://levelup.gitconnected.com/fix-password-authentication-github-3395e579ce74
+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
+
+
+
+1:54:00 donde quedo el video
